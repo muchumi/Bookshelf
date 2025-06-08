@@ -1,6 +1,6 @@
 profile MyProfile
 {
-    Description = 'My Profile';
+    Caption = 'My Profile';
     RoleCenter = "Order Processor Role Center";
     Customizations = MyCustomization;
 }

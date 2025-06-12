@@ -2,26 +2,26 @@ page 50101 BookList
 {
     PageType = List;
     SourceTable = Book;
-    CardPageId=BookCard;
-    Editable=false;
-    
+    CardPageId = BookCard;
+    Editable = false;
+
     layout
     {
         area(Content)
         {
             repeater(Group)
             {
-                field("No.";'No.')
+                field("No."; 'No.')
                 {
-                    ApplicationArea=All;
+                    ApplicationArea = All;
                 }
-                field(Title;'Title')
+                field(Title; 'Title')
                 {
-                    ApplicationArea=All;
+                    ApplicationArea = All;
                 }
-                field(Author;'Author')
+                field(Author; 'Author')
                 {
-                    ApplicationArea=All;
+                    ApplicationArea = All;
                 }
             }
         }

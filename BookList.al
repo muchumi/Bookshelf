@@ -11,15 +11,15 @@ page 50101 BookList
         {
             repeater(Group)
             {
-                field("No."; 'No.')
+                field("No."; "No.")
                 {
                     ApplicationArea = All;
                 }
-                field(Title; 'Title')
+                field(Title; Title)
                 {
                     ApplicationArea = All;
                 }
-                field(Author; 'Author')
+                field(Author; Author)
                 {
                     ApplicationArea = All;
                 }

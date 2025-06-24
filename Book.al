@@ -22,15 +22,15 @@ table 50100 Book
             DataClassification = ToBeClassified;
 
         }
-        field(4; Hardcover; Boolean)
+        field(4; HardCover; Boolean)
         {
-            Caption = 'Hardcover';
+            Caption = 'HardCover';
             DataClassification = ToBeClassified;
 
         }
-        field(5; "Page Count"; Integer)
+        field(5; "PageCount"; Integer)
         {
-            Caption = 'Page Count';
+            Caption = 'PageCount';
             DataClassification = ToBeClassified;
 
         }

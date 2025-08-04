@@ -10,7 +10,7 @@ page 50100 BookCard
             group(General)
             {
                 Caption = 'General';
-                field("No"; 'No.')
+                field("No"; Rec."No.")
                 {
                     ApplicationArea = All;
                 }

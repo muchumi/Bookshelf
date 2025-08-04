@@ -11,7 +11,7 @@ page 50101 BookList
         {
             repeater(Group)
             {
-                field("No."; 'No.')
+                field("No."; Rec."No.")
                 {
                     ApplicationArea = All;
                 }

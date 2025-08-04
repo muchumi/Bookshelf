@@ -35,7 +35,7 @@ table 50100 Book
 
         }
     }
-
+    
     keys
     {
         key(Key1; "No.")

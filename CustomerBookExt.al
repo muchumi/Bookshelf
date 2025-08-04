@@ -10,4 +10,10 @@ tableextension 50100 CustomerBookExtension extends Customer
 
         }
     }
+    // trigger OnAfterInsert()
+    // var
+    //     CustomerCode : Codeunit CustomerCode;
+    // begin
+    //     CustomerCode.CelebrateCustomer(Rec, 'Congratulations for choosing new favorite book no!');
+    // end;
 }

@@ -14,7 +14,7 @@ page 50100 BookCard
                 {
                     ApplicationArea = All;
                 }
-                field("Title"; 'Title')
+                field("Title"; Rec.Title)
                 {
                     ApplicationArea = All;
                 }
@@ -22,15 +22,15 @@ page 50100 BookCard
             group(Details)
             {
                 Caption = 'Details';
-                field("Author"; 'Author')
+                field("Author"; Rec.Author)
                 {
                     ApplicationArea = All;
                 }
-                field("HardCover"; 'HardCover')
+                field("HardCover"; Rec.HardCover)
                 {
                     ApplicationArea = All;
                 }
-                field("PageCount"; 'PageCount')
+                field("PageCount"; Rec.PageCount)
                 {
                     ApplicationArea = All;
                 }

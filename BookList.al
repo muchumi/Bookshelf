@@ -3,7 +3,7 @@ page 50101 BookList
     PageType = List;
     SourceTable = Book;
     CardPageId = BookCard;
-    Editable = false;
+    Editable = true;
 
     layout
     {
@@ -15,11 +15,11 @@ page 50101 BookList
                 {
                     ApplicationArea = All;
                 }
-                field(Title; 'Title')
+                field(Title; Rec.Title)
                 {
                     ApplicationArea = All;
                 }
-                field(Author; 'Author')
+                field(Author; Rec.Author)
                 {
                     ApplicationArea = All;
                 }

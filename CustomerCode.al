@@ -1,8 +1,10 @@
 codeunit 50100 CustomerCode
 {
     procedure CelebrateCustomer(MyCustomer: Record Customer; ExtraMessage: Text)
+    var
+        NEW_CUSTOMER : Label 'We have a new Customer %1||\\%2';
     begin
-        Message('We have a new Customer %1||\\%2', MyCustomer."No.", ExtraMessage);
+        Message(NEW_CUSTOMER, MyCustomer."No.", ExtraMessage);
     end;
     [EventSubscriber(ObjectType::Table, Database::Customer, 'OnAfterInsertEvent', '', true, true)]
     local procedure CustomerOnAfterInsert(var Rec : Record Customer)

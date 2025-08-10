@@ -23,6 +23,14 @@ page 50101 BookList
                 {
                     ApplicationArea = All;
                 }
+                field(HardCover;Rec.HardCover)
+                {
+                    ApplicationArea = All;
+                }
+                field(PageCount;Rec.PageCount)
+                {
+                    ApplicationArea = All;
+                }
             }
         }
     }

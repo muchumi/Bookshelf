@@ -34,4 +34,16 @@ page 50101 BookList
             }
         }
     }
+    actions
+    {
+        area(Processing)
+        {
+            action(RunWrapper)
+            {
+                Caption = 'Run .NET Wrapper';
+                ApplicationArea = All;
+                RunObject = codeunit DotNetWrappers;
+            }
+        }
+    }
 }

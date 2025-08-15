@@ -34,6 +34,7 @@ codeunit 50103 DotNetWrappers
             Message('We have Anne on the list');
 
         Message('The name at index 1:' + CustomerNames.Get(1));
+        PrintCustomerNames(CustomerNames);
     end;
 
     procedure PrintCustomerNames(CustomerNames : List of [Text])

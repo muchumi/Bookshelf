@@ -43,6 +43,7 @@ codeunit 50103 DotNetWrappers
     begin
         foreach CustomerName in CustomerNames do begin
             Message(CustomerName);
+            CountCharactersInCustomerName(CustomerName);
         end;
     end;
 
